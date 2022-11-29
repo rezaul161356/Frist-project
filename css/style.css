@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+.container{
+    margin-top: 40px;
+}
+
+.items .item{
+    height: 50px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(9, 9, 9, 0.699);
+}
+
+.btn{
+    margin-right: 25px;
+}
+
+.nav-link{
+    margin-right: 25px;
+    transition: .4s;
+}
+.nav-link:hover {
+    color: orangered;
+}
+.ITEM{
+    margin-top: 50px;
+}
+.frist h5{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.frist h4{
+    margin-bottom: 100px;
+    font-weight: 800;
+    font-size: 70px;
+}
+.frist .btn{
+    margin-bottom: 300px;
+    height: 60px;
+    width: 200px;
+}
+
+#banner-bottom .main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(207, 215, 212);
+}
+#banner-bottom .main h5{
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 30px;
+    color: rgba(24, 23, 23, 0.633);
+    margin-top: 35px;
+}
+#banner-bottom .main h4{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1px;
+    
+}
+#banner-bottom .main .btn{
+    margin-left: 867px;
+    margin-top: -50px;
+    width: 250px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 21px;
+    
+}
+#part{
+    margin-bottom: 50px;
+}
+#part .row .ITEMS img{
+    width: 100%;
+    height: 300px;
+}
+#part .row .ITEMS h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+}
+#part .row .ITEMS p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+#part .row .ITEMS .btn{
+    margin-top: 10px;
+    transition: .4s
+}
+#part .row .ITEMS .btn:hover {
+    color: orangered;
+}
+#PROGRAMS .Main{
+    margin-bottom: 50px;
+    height: 350px;
+    width: 100%;
+    background-color: rgba(214, 219, 215, 0.791);
+}
+#PROGRAMS .Main h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 76px;
+    
+}
+#PROGRAMS .Main .desh{
+    height: 5px;
+    width: 50px;
+    background-color: #919191;
+    margin-left: 49%;
+    margin-top: -20px;
+    border-radius: 4px;
+}
+
+#PROGRAMS .Main .row h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+#PROGRAMS .Main .row .deshes{
+    height: 5px;
+    width: 30px;
+    background-color: #919191;
+    margin-left: 45%;
+    
+}
+#PROGRAMS .Main .row h5{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #919191;
+}
+#PROGRAMS .Main .row p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #919191;
+}
+#PROGRAMS .Main .row .btn{
+    margin-left: 31%;
+}
+#galary{
+    margin-bottom: 50px;
+}
+#galary .galary-top h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    
+}
+#galary .desh{
+    height: 5px;
+    width: 35px;
+    background-color: #919191;
+    margin-left: 49%;
+    border-radius: 4px;
+}
+#galary .row .display img{
+    width: 100%;
+    height: 300px;
+}
+#galary .row .part-2{
+    width: 100%;
+    height: 300px;
+    background-color: #e0d9d9;
+}
+#galary .row .part-2 h4{
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+#galary .row .part-2 p{
+    margin-left: 15px;
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+#galary .row .part-2 h5{
+    padding: 0 15px;
+    font-weight: 800;
+    font-size: 46px;
+}
+#galary .row .part-3{
+    width: 94%;
+    height: 20px;
+    background-color: rgba(156, 160, 160, 0.963);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+#galary .row .part-4{
+    width: 60%;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;  
+}
+#galary .row .part-4 p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+#galary .row .last p{
+    font-weight: 400;
+    font-size: 13px;
+}
+#galary .row .row .btn{
+    margin-top: 30px;
+    padding: 8px 12px;
+}
+
+#GALARY{
+    margin-top: 50px;
+}
+#GALARY .Galary-top h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+#GALARY .Galary-top .desh{
+    height: 5px;
+    width: 35px;
+    background-color: #919191;
+    margin-left: 49%;
+    border-radius: 4px;
+}
+
+#GALARY .row .images img{
+   width: 100%;
+   height: 250px;
+   margin-top: 20px;
+}
+#verses .Verses{
+    width: 100%;
+    height: 200px;
+    background-color:  rgba(214, 219, 215, 0.791);;
+}
+#verses .Verses .ditales h4{
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 55px;
+}
+#verses .Verses .ditales .desh{
+    height: 5px;
+    width: 35px;
+    background-color: #919191;
+    margin-left: 49%;
+    border-radius: 4px;
+    margin-top: -14px;
+}
+#verses .Verses .ditales p{
+    text-align: center;
+    font-weight: 400;
+    font-size:16px;
+    margin-top: 30px;
+}
+#verses .Verses .ditales h5{
+    text-align: center;
+    font-weight: 400;
+    font-size:20px;
+}
+#MINISTRIES{
+    margin-top: 40px;
+}
+#MINISTRIES .ditale h4{
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+#MINISTRIES .ditale .desh{
+    height: 5px;
+    width: 30px;
+    background-color: #919191;
+    margin-left: 49%;
+    border-radius: 4px;
+}
+#MINISTRIES .row img{
+    width: 100%;
+    height: 250px;
+}
+#MINISTRIES .row .minister h5{
+    margin-top: 15px;
+    font-weight: 900px;
+    font-size: 18px;
+    color: black;
+}
+#MINISTRIES .row .minister p{
+    margin-top: 15px;
+    font-weight: 400px;
+    font-size: 15px;
+    color: #919191;
+}
+#MINISTRIES .row .minister .btn{
+    transition: .4s;
+}
+
+#MINISTRIES .row .minister .btn:hover {
+    color: orangered;
+}
+
+#button{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+#button .Button{
+    width: 100%;
+    height: 100px;
+    background-color: #cfcbcb;
+}
+
+#button .Button .BUtton h4{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 16px;
+    margin-top: -20px;
+}
+#button .Button .BUtton h5{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 8px;
+    color: #919191;
+}
+
+#button .Button form .last-part{
+     width: 600px;
+     height: 50px;
+     margin-top: -28px;
+     margin-right: 20px;
+}
+#button .Button form .btn{
+    width: 200px;
+    height: 50px;
+    margin-top: -28px;
+}
+#footer .footer-main{
+    width: 100%;
+    height: 220px;
+    background-color: #423f3f;
+}
+
+#footer .footer-main .row h4{
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+#footer .footer-main .row p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+#footer .footer-main .row ul li{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: -30px;
+}
+#footer .footer-main .row .done{
+    height: 35px;
+    width: 35px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 6px
+}
+#footer .footer-main .row .done img{
+    margin-left: 12px;
+    margin-top: 6px;
+}
+#footer .footer-main .row .done1{
+    height: 35px;
+    width: 35px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 6px
+}
+#footer .footer-main .row .done1 img{
+    margin-left: 6px;
+    margin-top: 6px;
+}
+#footer .footer-main .row .done2{
+    height: 35px;
+    width: 35px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 6px
+}
+#footer .footer-main .row .done2 img{
+    margin-left: 8px;
+    margin-top: 6px;
+}
+#copy .Copy{
+    width: 100%;
+    height: 50px;
+    background-color: #302c2c;
+    margin-top: -40px;
+}
+#copy .Copy .row p{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
